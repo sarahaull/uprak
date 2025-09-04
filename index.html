@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Bakery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom font-family untuk Tailwind */
+    .font-brush {
+      font-family: 'Brush Script MT', cursive;
+    }
+  </style>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-10 bg-white shadow-md flex justify-between items-center px-12 py-4">
+    <div class="text-red-800 font-brush text-3xl">Cake Bakery</div>
+    <nav>
+      <ul class="flex gap-5">
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">Main</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">Catalog</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">About us</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">Special offer</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">Reviews</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-red-800 transition">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="text-sm text-gray-800">📞 +62 881 025 387 767</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[90vh] flex flex-col justify-center items-center text-center bg-cover bg-center" style="background-image: url('https://www.foodandwine.com/thmb/cUck29eCdcIEjx_r5Q5ReugKoNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fraiser-cake-FT-RECIPES0624-e9972b38ccb54d3ca8edbbb9a5bb1642.jpeg');">
+    <div class="absolute inset-0 bg-white/60"></div>
+    <div class="relative z-10">
+      <h1 class="text-5xl font-brush mb-5">Delicious cakes<br>to order</h1>
+      <button class="mt-5 px-6 py-3 border border-red-800 text-red-800 hover:bg-red-800 hover:text-white transition">Choose a cake</button>
+    </div>
+  </section>
+
+</body>
+</html>
